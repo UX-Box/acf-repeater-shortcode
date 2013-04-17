@@ -16,7 +16,7 @@ the items. Optional `post_id` parameter defaults to the current post.
 
 `[acf_sub_field field="<subfieldname>" (autop="true")]`
 
-Renders a subfield of the surrounding `acf_repeater` shortcode. Optional autop applies wpautop to the
+Renders a subfield of the surrounding `acf_repeater` shortcode. Optional `autop` applies `wpautop` to the
 contents of the subfield.
 
 ## `acf_sub_repeater`
