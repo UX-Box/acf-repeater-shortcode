@@ -7,10 +7,10 @@ It adds three shortcodes for using repeaters:
 
 ## `acf_repeater`
 
-`[acf_repeater field="<fieldname>" (separator="<separator>")]..\[/acf_repeater]`
+`[acf_repeater field="<fieldname>" (post_id="<post_id>" separator="<separator>")]..\[/acf_repeater]`
 
 Renders contents for each item in repeater list. Optional separator can be placed between each of
-the items.
+the items. Optional `post_id` parameter defaults to the current post.
 
 ## `acf_sub_field`
 
